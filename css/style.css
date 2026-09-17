@@ -1,11 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    font-family: monospace;
+    overflow-x: hidden;
+    background-color: rgb(237, 237, 237);
+}
+#gameContain {
+    display: flex;
+    gap: 15px;
+    color: white;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    
+}
 .gameCard {
-
+    width: 300px;
+    background-color: rgb(9, 9, 48);
+    height: fit-content;
+    text-align: center;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    border-radius: 30px;
 }
 .devTxt {
 
 }
 .genreTxt {
-
+font-weight: bold;
+font-size: 20px;
 }
 .title {
 
@@ -14,5 +43,7 @@
 
 }
 .imgContain {
-    
+   width: 100%;
+   overflow: hidden;
+   height: 200px; 
 }
